@@ -1,0 +1,6 @@
+configurations.maybeCreate("default")
+
+dependencies {
+    //implementation files('src/main/libs/xerces-xercesImpl-2.11.jar')
+}
+artifacts.add("default", file('fb2parser.jar'))
